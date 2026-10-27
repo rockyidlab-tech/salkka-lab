@@ -1,0 +1,17 @@
+// 상품 목록 데이터 — 이 파일만 고치면 페이지가 바뀝니다. (자동화가 이 파일을 갱신)
+// 순서 = 화면 순서(최신 영상이 위). no: 페이지 안 번호 / category: 영상 카테고리 / rank: 영상 속 판매량 순위
+// link: 쿠팡 파트너스 링크(null 이면 링크 제공 제한 안내) / video: 쇼츠 주소 / image: img/ 아래 상품 사진
+window.PRODUCTS = [
+  { no: 10, category: "유리 반찬통", rank: 1, name: "Munjjing 내열강화유리 햇밥용기 400ml 6개", price: 13900, oneLine: "밥을 한 번에 지어 소분해 얼린다는 후기가 가장 많아요", date: "2026-10-27", image: "img/box1.jpg", link: "https://link.coupang.com/a/iby7AqJOyO", video: "https://youtube.com/shorts/nZuvkzMSFgQ" },
+  { no: 11, category: "유리 반찬통", rank: 2, name: "글라스락 렌지쿡 촉촉한 햇밥용기 350ml 6개", price: 28000, oneLine: "플라스틱 대신 유리로 바꿨다는 후기가 많아요", date: "2026-10-27", image: "img/box2.jpg", link: "https://link.coupang.com/a/iby7Ij6gN2", video: "https://youtube.com/shorts/nZuvkzMSFgQ" },
+  { no: 12, category: "유리 반찬통", rank: 3, name: "FANOBO 내열고붕규유리 밀폐용기 400ml 6개", price: 9900, oneLine: "밥과 반찬을 같이 담는다는 후기가 많아요", date: "2026-10-27", image: "img/box3.jpg", link: "https://link.coupang.com/a/iby7P34TG8", video: "https://youtube.com/shorts/nZuvkzMSFgQ" },
+  { no: 7, category: "전기포트", rank: 1, name: "키친아트 솔리드 전기주전자 KAEK-B1500FT", price: 9900, oneLine: "만 원이 안 되는데 가성비 좋다는 후기가 가장 많아요 (선이 짧다는 후기도 있어요)", date: "2026-10-27", image: "img/pot1.jpg", link: "https://link.coupang.com/a/iby7fPtBca", video: "https://youtube.com/shorts/767eTi5jsRY" },
+  { no: 8, category: "전기포트", rank: 2, name: "필립스 3000 시리즈 무선 전기 주전자 HD9318", price: 25080, oneLine: "1.7L 넉넉한 용량, 셋 중 리뷰가 가장 많아요", date: "2026-10-27", image: "img/pot2.jpg", link: "https://link.coupang.com/a/iby7mHrJpk", video: "https://youtube.com/shorts/767eTi5jsRY" },
+  { no: 9, category: "전기포트", rank: 3, name: "위즈웰 접이식 전기포트 WK3616", price: 37500, oneLine: "해외여행·출장용으로 쓴다는 후기가 가장 많아요", date: "2026-10-27", image: "img/pot3.jpg", link: "https://link.coupang.com/a/iby7twtPe8", video: "https://youtube.com/shorts/767eTi5jsRY" },
+  { no: 4, category: "가습기", rank: 1, name: "홈플래닛 초음파 가습기 4L", price: 28900, oneLine: "4L 대용량, 후기에서 가장 많이 나온 말은 '가성비'", date: "2026-10-27", image: "img/hum1.jpg", link: "https://link.coupang.com/a/iby6leYPw4", video: "https://youtube.com/shorts/Q0sP6qiNbtQ" },
+  { no: 5, category: "가습기", rank: 2, name: "듀플렉스 초음파 가습기 DP-9090UH", price: 35800, oneLine: "분무량이 시원하다는 후기가 많아요", date: "2026-10-27", image: "img/hum2.jpg", link: null, video: "https://youtube.com/shorts/Q0sP6qiNbtQ" },
+  { no: 6, category: "가습기", rank: 3, name: "SUNGOD 미니 가습기 듀얼미스트 500ml", price: 18800, oneLine: "책상·차량용으로 쓴다는 후기가 가장 많아요", date: "2026-10-27", image: "img/hum3.jpg", link: "https://link.coupang.com/a/iby68Ociom", video: "https://youtube.com/shorts/Q0sP6qiNbtQ" },
+  { no: 1, category: "전동 다지기", rank: 1, name: "닌자 프로페셔널 초퍼 NJ1001KR", price: 53900, oneLine: "베스트 후기 넷 중 하나가 아기 이유식 이야기예요", date: "2026-10-27", image: "img/chop1.jpg", link: "https://link.coupang.com/a/iby4SIR0qi", video: "https://youtube.com/shorts/EdYdHNWCziY" },
+  { no: 2, category: "전동 다지기", rank: 2, name: "다기능 만능 다지기 2L", price: 19900, oneLine: "마늘을 한 번에 많이 다지는 용도의 후기가 많아요", date: "2026-10-27", image: "img/chop2.jpg", link: "https://link.coupang.com/a/iby57jcoEK", video: "https://youtube.com/shorts/EdYdHNWCziY" },
+  { no: 3, category: "전동 다지기", rank: 3, name: "홈플래닛 전동 멀티 다지기 MC421A-CB", price: 19890, oneLine: "후기에서 가장 많이 나온 말은 '가성비', 출력 500W", date: "2026-10-27", image: "img/chop3.jpg", link: "https://link.coupang.com/a/iby6ef21Js", video: "https://youtube.com/shorts/EdYdHNWCziY" }
+];
