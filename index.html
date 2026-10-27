@@ -190,7 +190,10 @@
   function applyHash() {
     const h = decodeURIComponent(location.hash.slice(1)).trim();
     if (/^\d+$/.test(h)) { q.value = h; category = "전체"; }
-    else if (h && products.some(p => p.category === h)) { q.value = ""; category = h; }
+    else if (h) {  // #전동다지기 처럼 띄어쓰기 없이 와도 카테고리로 찾는다
+      const hit = products.find(p => p.category.replace(/\s/g, "") === h.replace(/\s/g, ""));
+      if (hit) { q.value = ""; category = hit.category; }
+    }
     renderChips();
     render();
   }
