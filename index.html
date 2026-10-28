@@ -107,7 +107,9 @@
 
 <script src="products.js"></script>
 <script>
-  const products = (window.PRODUCTS || []).slice().sort((a, b) => a.no - b.no);  // 번호 순
+  // showFrom(영상 공개 예약 시각)이 아직 안 된 상품은 숨긴다
+  const products = (window.PRODUCTS || []).filter(p => !p.showFrom || new Date(p.showFrom) <= new Date())
+    .sort((a, b) => a.no - b.no);  // 번호 순
   const listEl = document.getElementById("list");
   const chipsEl = document.getElementById("chips");
   const countEl = document.getElementById("count");
